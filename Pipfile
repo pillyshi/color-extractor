@@ -4,6 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+opencv-python = "*"
+scikit-learn = "*"
+color-extractor = {editable = true, path = "."}
 
 [dev-packages]
 
